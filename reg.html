@@ -1,43 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REGISTRATION FORM</title>
-    <link rel="stylesheet" href="regstyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="doc.webp" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="regstyle.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/Images/doc.webp" type="image/x-icon" />
+  </head>
+  <body>
     <h3>FILL THE REGISTRATION FORM TO REPORT AN ISSUE</h3>
     <div class="container">
-    <form id ="reg" action=".php" method="post">
-    <label>First Name: </label><br>
-    <input type = "text" name="fname" id="name" placeholder="YOUR FORENAME"><br><br>
+      <form id="reg" action=".php" method="post">
+        <label>First Name: </label><br />
+        <input
+          type="text"
+          name="fname"
+          id="name"
+          placeholder="YOUR FORENAME"
+        /><br /><br />
 
-    <label>Last Name: </label><br>
-    <input type = "text" name="lname" id="name" placeholder="YOUR SURNAME"><br><br>
+        <label>Last Name: </label><br />
+        <input
+          type="text"
+          name="lname"
+          id="name"
+          placeholder="YOUR SURNAME"
+        /><br /><br />
 
-    <label>E-Mail id: </label><br>
-    <input type = "email" name="email" id="name" placeholder="example@gmail.com" ><br><br>
+        <label>E-Mail id: </label><br />
+        <input
+          type="email"
+          name="email"
+          id="name"
+          placeholder="example@gmail.com"
+        /><br /><br />
 
-    <label>SELECT YOUR GENDER: </label><br>
-    <span id ="male">MALE</span>&nbsp;
-    <input type="radio" name="male" id="ml" >
+        <label>SELECT YOUR GENDER: </label><br />
+        <span id="male">MALE</span>&nbsp;
+        <input type="radio" name="male" id="ml" />
 
-    <span id ="male">FEMALE</span>&nbsp;
-    <input type="radio" name="male" id="ml" /><br><br>
-    
-    <label>REPORT:</label><br>
-    <textarea name="REPORT"placeholder="SET OUT YOUR MATTER" id="hehe" cols="30" rows="10"></textarea><br><br>
+        <span id="male">FEMALE</span>&nbsp;
+        <input type="radio" name="male" id="ml" /><br /><br />
 
-    <input type="submit" id="sub" value="SUBMIT">
-    <input type="reset" id ="val" value="RESET">
-    </form>
-    <h5>Click Here To Upload An Issue</h5>
-    <img src="add.png" alt="add image id" id="add">
-</div>
+        <label>REPORT:</label><br />
+        <textarea
+          name="REPORT"
+          placeholder="SET OUT YOUR MATTER"
+          id="hehe"
+          cols="30"
+          rows="10"
+        ></textarea
+        ><br /><br />
 
-</body>
+        <input type="submit" id="sub" value="SUBMIT" />
+        <input type="reset" id="val" value="RESET" />
+      </form>
+      <h5>Click Here To Upload An Issue</h5>
+      <img src="/Images/add.png" alt="add image id" id="add" />
+    </div>
+  </body>
 </html>

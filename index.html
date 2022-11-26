@@ -33,7 +33,9 @@
       </p>
 
       <div>
-        <button type="button" class="btn1"><span></span>SIGN IN</button>
+        <button onclick="handleSignIn()" type="button" id="sign" class="btn1">
+          <span></span>SIGN IN
+        </button>
         <a href="reg.html" target="_main"
           ><button type="button" class="btn2">
             <span></span>REGISTER A ISSUE
@@ -41,5 +43,12 @@
         >
       </div>
     </div>
+
+    <script>
+      function handleSignIn() {
+        alert("hello bhai");
+        console.log("sign in successfully");
+      }
+    </script>
   </body>
 </html>

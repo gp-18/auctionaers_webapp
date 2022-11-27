@@ -10,6 +10,7 @@ body{
     width: 100vw;
     background-position: center;
     position: relative;
+    box-sizing: border-box;
 }
 .responsive-navbar{
     display: none;
@@ -185,6 +186,7 @@ button:hover{
     flex-direction: column;
     left: -110%;
     transition: all ease-in 1.3s;
+    z-index: 4;
 
 }
 @media screen and (max-width:1040px) {
@@ -199,6 +201,15 @@ button:hover{
   }
   #menubarbtn{
     display: block;
+  }
+  .content h1{
+    font-size: 19px;
+    text-align: center;
+    word-spacing: 10px;
+  }
+  .content p{
+    font-size: 14px;
+    margin: 40px 0 50px 0;
   }
 }
 

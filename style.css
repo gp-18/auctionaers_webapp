@@ -177,7 +177,7 @@ button:hover{
     padding: 0px  15px 0px 0px;
 }
 .responsive-navbar{
-    display: block;
+    display: none;
     position: absolute;
     background-color: pink;
     width: 100vw;
@@ -214,6 +214,7 @@ button:hover{
 }
 
 .unresponsive{
+    display: block;
 left: 0%;
 }
 .responsive-navbar ul{

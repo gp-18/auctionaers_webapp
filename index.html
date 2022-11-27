@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load all of firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>THE AUCTIONEERS</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
@@ -11,19 +15,38 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="/Images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div class="navbar">
-      <img src="/Images/output.png" class="logo" alt="logo image" />
+    <div class="navbar responsive" id="navbar-container">
+      <div class="logodiv">
+
+        <img src="/Images/output.png" class="logo" alt="logo image" />
+      </div>
+      <div class="ul">
+
+        <ul>
+          <li ><a href="index.html">HOME</a></li>
+          <li><a href="#">BLOGS</a></li>
+          <li><a href="serviceindex.html" target="_main">SERVICES</a></li>
+          <li><a href="aboutusindex.html" target="_main">ABOUT US</a></li>
+          
+        </ul>
+         <i class="fa fa-solid fa-bars menubar" id="menubarbtn" ></i>
+      </div>
+
+     
+    </div>
+    <div class="responsive-navbar" id="slider">
       <ul>
-        <li><a href="#">HOME</a></li>
+        <li ><a href="index.html">HOME</a></li>
         <li><a href="#">BLOGS</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">ABOUT US</a></li>
+        <li><a href="serviceindex.html" target="_main">SERVICES</a></li>
+        <li><a href="aboutusindex.html" target="_main">ABOUT US</a></li>
       </ul>
     </div>
 
-    <div class="content">
+    <!-- <div class="content">
       <h1>WELCOME TO THE ONLINE AUCTION PLATFORM</h1>
       <p>
         PLEASE DO THE PROCEDURE CAREFULLY YOU ARE ONLY RESPONSIBLE FOR YOUR OWN
@@ -32,23 +55,18 @@
         100% SURE.
       </p>
 
-      <div>
-        <button onclick="handleSignIn()" type="button" id="sign" class="btn1">
+      <div class="allbtn">
+        <button  type="button" id="login" class="btn1">
           <span></span>SIGN IN
         </button>
         <a href="reg.html" target="_main"
           ><button type="button" class="btn2">
             <span></span>REGISTER A ISSUE
-          </button></a
-        >
+          </button></a>
       </div>
-    </div>
+    </div> -->
 
-    <script>
-      function handleSignIn() {
-        alert("hello bhai");
-        console.log("sign in successfully");
-      }
-    </script>
+   
   </body>
+  <script src="./index.js"></script>
 </html>

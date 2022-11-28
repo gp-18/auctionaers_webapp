@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image:linear-gradient(rgba(249, 244, 244, 0.3) , rgba(249, 235, 235, 0.3));
+    background-color:rgb(247, 247, 200) ;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -23,7 +23,7 @@ h3{
 }
 
 .container{
-    border: 2px solid rgb(248, 48, 158);
+    border: 2px solid rgb(138, 181, 215);
     margin: 2rem;
     display: flex;
     justify-content:space-between;
@@ -58,11 +58,11 @@ label{
     padding: 2px;
     font-size: large;
     font-weight: bolder;
-    color: rgb(147, 64, 199);   
+    color: rgb(195, 116, 244);   
 }
 
 h5{
-    color: rgb(6, 60, 141);
+    color: rgb(137, 172, 224);
     padding-top: 61px;
     padding-left: 909px;
     font-style: italic;
